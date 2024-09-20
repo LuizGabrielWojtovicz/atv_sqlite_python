@@ -100,15 +100,15 @@ db.commit()
 db.close()
 
 while True:
-    print("\nMenu de Opções:")
-    print("1. Adicionar novo funcionário")
-    print("2. Exibir todos os funcionários")
-    print("3. Atualizar salário de um funcionário")
-    print("4. Remover um funcionário")
-    print("5. Buscar funcionários por departamento")
-    print("6. Sair")
     
-    opcao = input("Escolha uma opção: ")
+    opcao = input('''\nMenu de Opções:")
+                     \n1. Adicionar novo funcionário")
+                     \n2. Exibir todos os funcionários")
+                     \n3. Atualizar salário de um funcionário")
+                     \n4. Remover um funcionário")
+                     \n5. Buscar funcionários por departamento
+                     \n6. Sair
+                     \n\nEscolha uma opção: \n''')
 
     if opcao == '1':
 
